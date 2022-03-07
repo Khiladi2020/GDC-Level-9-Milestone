@@ -122,3 +122,6 @@ LOGOUT_REDIRECT_URL="/"
 
 BROKER_URL = "redis://localhost:6379"
 CELERY_RESULT_BACKEND = "redis://localhost:6379"
+
+# Static root for whitenoise static file serving
+STATIC_ROOT = BASE_DIR / 'staticfiles'
